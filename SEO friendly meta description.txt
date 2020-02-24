@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <title>Webdesign</title>
+
+  <base href="/"/>
+
+<meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=7.0"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="msapplication-tap-highlight" content="no"/>
+
+ <meta name="Description" content=" App Development is all about building products that make people happy
+     Frameworks like Angular, React and Ionic will continue to grow in 2020
+     Create a progressive Web App with Ionic or React and make it available on all platforms
+     With Firebase you can deploy it without all the hassle.">
+
+
+  <link rel="icon" type="image/png" href="assets/code512.png"/>
+ 
+
+    <title>Webdesign</title>
+    <!-- You can use Open Graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+  <meta property="og:url"           content="https://uspekhi.web.app/" />
+  <meta property="og:type"          content="Web Development" />
+  <meta property="og:title"         content="Webdesign" />
+  <meta property="og:description"   content="All about building Apps that make people happy" />
+  <meta property="og:image"         content="https://uspekhi.web.app/assets/createApp.jpg" />
+ 
+
+<!---Ionic stylesheet-->
+
+<script defer  type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script  defer nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link defer  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script defer  src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-YOUR ID-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXXXXXXX-7');
+</script>
+
+
+<link defer rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#383b75"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-right"
+})});
+</script>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1976d2">
+</head>
+
+<body>
+  <app-root></app-root>
+
+ 
+<noscript>Please enable JavaScript to continue using this application.</noscript>
+
+ <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your share button code -->
+ 
+
+</body>
+
+</html>
